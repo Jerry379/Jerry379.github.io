@@ -1,0 +1,29 @@
+---
+layout: articleList
+title: 我的Blog
+---
+<html lang="zh-cn">
+    {% include head.html %}
+    <style>
+        body{
+            background: #eee;
+        }
+        .banner{
+            position: fixed;
+            width: 22%;
+            max-width: 320px;
+        }
+    </style>
+    <body>
+    {% include banner.html %}
+    <div class="articleList">
+        <ul>
+            {% for post in site.posts %}
+            <li>{{ post.date | date: "%F-%M-%D"}}<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+        {% include footer.html %}
+    </div>
+
+    </body>
+</html>

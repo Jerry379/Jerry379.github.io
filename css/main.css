@@ -15,23 +15,10 @@ body {
 	background: #eee;
 }
 .left_warp{
-	width:205px;
-	padding: 0 24px;
+	width: 22%;
+	max-width: 320px;
 	min-height: 100%;
 	background: #555;
-}
-.header{
-	width:100px;
-	height: 100px;
-	margin: 25px auto;
-	border: 5px solid #d3d3d3;
-	border-radius: 50%;
-	text-align: center;
-	color: #fff;
-}
-.logo{
-	font-size: 65px;
-	line-height: 100px;
 }
 .articl_warp{
 	flex: 1;
@@ -40,6 +27,12 @@ body {
 }
 
 .footer{
+	bottom: 0;
+	left: 0;
 	width: 100%;
 	text-align: center;
+	margin-top: 20px;
+}
+.hidden{
+	display: none;
 }

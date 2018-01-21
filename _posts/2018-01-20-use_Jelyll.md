@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: articleList
 title:  "Jekyll搭建个人博客"
+categories: ["博客"]
 date:   2018-01-20 21:22:00 +0800
 ---
  一直有搭建一个个人博客的想法，但苦于对搭建流程不熟悉没有完成，今天无意间看到一篇利用Jekyll搭建个人博客的文章，决定动手操作一下。

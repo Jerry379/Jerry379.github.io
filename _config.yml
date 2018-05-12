@@ -1,28 +1,70 @@
-# 保存配置数据。很多配置选项都会直接从命令行中进行设置，但是如果你把那些配置写在这儿，你就不用非要去记住那些命令了。
-title: 张锐杰-个人站
-email: ruijie379@163.com
-description: 欢迎来到我的个人网站
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://zhangruijie.cn"
-#twitter_username: jekyllrb
-github_username:  Jerry379
-permalink: /:year/:month/:day/:title
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+# Basic
+title: 潘柏信
+subtitle: 个人站
+description: 欢迎来到我的个人站~
+# 头像里面的标题
+avatarTitle: leopardpan
+# 头像里面的描述
+avatarDesc: iOS / 机器学习
+url: "http://baixin.io"
 
-paginate: 5
+# Comment
+comment:
+    disqus: leopard
+    # uyan: 2143225  # 有言id,登录有言官网申请
+
+# Social
+social:
+    weibo: 5366874726 
+    github: leopardpan
+    # twitter: 
+    mail: leopardpan@icloud.com
+
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id: 8ba1c6be0953b6f9c2ba38e57f615421  
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+ga:
+    id: UA-84134159-3   
+    host: auto  
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#  _post/ 下的文章更换成你自己的文章
+#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 关于我, description: about, url: '/about'}      
+    
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
 paginate_path: "page/:num/"
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+

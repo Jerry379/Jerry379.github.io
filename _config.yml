@@ -14,16 +14,16 @@ comment:
     # uyan: 2143225  # 有言id,登录有言官网申请
 
 # Social
-#social:
+social:
 #    weibo:
-#    github:
+    github: https://github.com/Jerry379/Jerry379.github.io
 #    # twitter:
-#    mail:
+    mail:
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
-#baidu:
-#    id: 8ba1c6be0953b6f9c2ba38e57f615421
+baidu:
+    id: a0dba9a53eefaca6b44d25f7ad69005a
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id

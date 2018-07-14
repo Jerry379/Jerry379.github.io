@@ -12,7 +12,7 @@ tag: 博客
 
 vi /etc/sysconfig/network-scripts/ifcfg-eth0 ,然后显示如下结果
 
-![image](http://upload-images.jianshu.io/upload_images/10937452-0f769afcf76086a1?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) 
+![image](https://upload-images.jianshu.io/upload_images/10937452-0f769afcf76086a1?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) 
 
 将其中的ONBOOT=no改为yes,然后输入 :wq,敲击enter保存并退出.
 

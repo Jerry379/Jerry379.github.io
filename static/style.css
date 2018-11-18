@@ -1,0 +1,20 @@
+html,body,#app{
+  height: 100%;
+  font-family: 'Hiragino Sans GB', "Microsoft Yahei", "微软雅黑", sans-serif;
+}
+ul{
+  margin: 0;
+}
+ul,li{
+  padding: 0;
+}
+ul,li,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+pre{
+  border-radius: 10px;
+  overflow: hidden;
+}

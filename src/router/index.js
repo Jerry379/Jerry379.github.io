@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Blog from '@/components/Blog'
+import BlogList from '@/components/BlogList'
 import Docs from '@/components/Docs'
 import About from '@/components/About'
 
@@ -11,12 +12,17 @@ export default new Router({
     {
       path: '/',
       name: 'blog',
-      component: Blog
+      component: BlogList
     },
     {
       path: '/blog',
       name: 'Blog',
       component: Blog
+    },
+    {
+      path: '/bloglist',
+      name: 'BlogList',
+      component: BlogList
     },
     {
       path: '/docs',

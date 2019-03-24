@@ -31,3 +31,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ### 代码高亮
 https://segmentfault.com/a/1190000008188461
+
+如果不喜欢代码高亮的主体可以在这里挑选
+https://highlightjs.org/static/demo/

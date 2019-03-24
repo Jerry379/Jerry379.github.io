@@ -1,6 +1,8 @@
 <template>
-  <div class="blog" v-html="mark2html" v-highlight>
+  <div>
+    <div class="blog" v-html="mark2html" v-highlight>
 
+    </div>
   </div>
 </template>
 
@@ -38,17 +40,19 @@ export default {
 <style>
   .blog{
     width: 50%;
-    padding-left: 15%;
-    padding-right: 15%;
-    overflow: auto;
-    padding-top: 50px;
+    padding: 50px 10%;
+    background: #fff;
+    margin: 2rem auto;
+    box-shadow: #d0d0d0 0 0 9px;
   }
   .blog h1{
     text-align: center;
+    font-size: 1.8rem;
+    font-weight: 200;
   }
   h1,h2,h3,h4,h5,h6{
     font-weight: bold;
-    color: #2A2935;
+    color: #537791;
     line-height: 1.5;
   }
   img{

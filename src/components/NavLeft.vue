@@ -1,7 +1,7 @@
 <template>
   <div class="nav">
     <div class="header">
-      <img src="" alt="">
+      <img src="../assets/jie.png" class="headpic" alt="">
     </div>
     <ul class="router">
       <li v-for="router in routers" :key="router.router" :class="{active: router.isActive}" @click="activeROuter(router)">
@@ -18,7 +18,7 @@ export default {
   data () {
     return {
       routers: [
-        {name: '博客', isActive: true, router: '/blog'},
+        {name: '博客', isActive: true, router: '/bloglist'},
         {name: '文档', isActive: false, router: '/docs'},
         {name: '关于', isActive: false, router: '/about'}
       ]
@@ -38,7 +38,8 @@ export default {
 <style scoped>
   .nav{
     position: relative;
-    width: 15%;
+    width: 10%;
+    min-width: 120px;
     height: 100%;
     z-index: 1;
     background: url("../../static/background-cover.jpg") top left no-repeat #666666;
@@ -53,12 +54,16 @@ export default {
     user-select:none;
   }
   .header{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     background: #999;
     overflow: hidden;
     margin: 70px auto 38px;
+  }
+  .headpic{
+    width: 100%;
+    height: 100%;
   }
   .router{
     height: 50px;

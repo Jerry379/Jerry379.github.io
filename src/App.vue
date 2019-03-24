@@ -24,7 +24,8 @@ export default {
 }
   .content{
     flex: 1;
-    background: #F4F4F4;
+    background: #f7f7f7;
+    overflow: auto;
     color: #666;
   }
 </style>

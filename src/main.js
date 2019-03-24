@@ -3,8 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import 'highlight.js/styles/tomorrow-night.css'
+import 'highlight.js/styles/routeros.css'
 import hljs from 'highlight.js'
+import javascript from 'highlight.js/lib/languages/javascript'
+hljs.registerLanguage('javascript', javascript)
 
 Vue.config.productionTip = false
 
